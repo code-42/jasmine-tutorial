@@ -16,7 +16,7 @@ describe('calculate addition', function(){
     });
 });
 
-    describe('calculate addition', function(){
+    describe('calculate subtraction', function(){
         it('should be able to subtract two numbers', function(){
             expect(calculate.minus(1,3).toBe(5));
             console.log('I was able to add two numbers');
