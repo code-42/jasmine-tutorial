@@ -4,8 +4,14 @@
   "description": "youtube tutorial https://www.youtube.com/watch?v=Ac2sBrkSK-c&list=PL_noPv5wmuO9op-OQ22SbHcqFGGHA6iIZ&index=1",
   "main": "spec/test.spec.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.8.0",
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-jasmine": "^1.1.0"
+  }
 }
